@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    position: relative;
+    background-image: url(start_img.jpg);
+    background-color: #006673;
+}
+
+.top {
+    margin-left: 600px;
+    display: inline-block; 
+}
+
+#to_iserv {
+    padding: 7px;
+    float: left;
+    color: #10575f;
+    background-color: transparent;
+    cursor: pointer;
+    border: #10575f solid 3px;
+    border-radius: 3px 3px 3px 6px;
+    transition-duration: 0.7s;
+}
+
+#to_iserv:hover {
+    background-color: #10575f;
+    color: white;
+    border: antiquewhite solid 3px;
+}
+
+#to_impressum {
+    padding: 7px;
+    float: left;
+    text-align: center;
+    color: #10575f;
+    background-color: transparent;
+    cursor: pointer;
+    border: #10575f solid 3px;
+    border-radius: 0px 3px 3px 0px;
+    transition-duration: 0.4s;
+}
+
+#to_impressum:hover {
+    background-color: #10575f;
+    color: white;
+    border: antiquewhite solid 3px;
+}
+#to_JKG {
+    padding: 7px;
+    float: left;
+    color: #10575f;
+    background-color: transparent;
+    cursor: pointer;
+    border: #10575f solid 3px;
+    border-radius: 6px 3px 3px 3px;
+    transition-duration: 0.4s;
+}
+
+#to_JKG:hover{
+    background-color: #10575f;
+    color: white;
+    border: antiquewhite solid 3px;
+}
+
+.main {
+    color: black;
+}
+
+.inf_title {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 27%;
+    vertical-align: text-top;
+    text-align: left;background-color: transparent;
+    font-size: 105pt;
+    font: bolder;
+    border-right: 1px solid transparent;
+    font-family: "Open Sans Extrabold",open ,sans-serif;
+}
+
+.unt_title {
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: right;
+    background-color: transparent;
+    font-size: 105pt;
+    font: bolder;
+    font-family: "Open Sans Extrabold",open ,sans-serif;
+}
+
+.periods {
+    vertical-align: text-top;
+    text-align: right;
+    font-size: 36pt;
+    margin-left: 400px;
+    margin-top: 350px;
+}
